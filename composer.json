@@ -1,0 +1,25 @@
+{
+    "name": "kyagie/laravel-auditing-s3",
+    "description": "An s3 storage driver for owen-it/laravel-auditing package.",
+    "type": "package",
+    "require": {
+        "php": "^8.3",
+        "ext-json": "*",
+        "owen-it/laravel-auditing": "^13.6",
+        "league/csv": "^9.16",
+        "league/flysystem": "^3.29",
+        "league/flysystem-aws-s3-v3": "^3.29"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Kyagie\\LaravelAuditingS3\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Arthur Kyagulanyi",
+            "email": "kyagieboy99@gmail.com"
+        }
+    ]
+}
